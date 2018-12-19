@@ -38,8 +38,8 @@ shinyUI(
                           #title = "State", status = "primary"   
                           width = 2,
                           selectInput("state", 
-                                      label = "States", 
-                                      choices = states,
+                                      label = "State", 
+                                      choices = state,
                                       selected = 'TN')),
                       fluidRow( 
                         box(title ='Number of Opioid Prescriptions', 

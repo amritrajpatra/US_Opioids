@@ -21,5 +21,5 @@ states <- as.data.frame(opioids_prescribed_by_state_RDS) %>%
   select(State) %>% 
   unique()
 
-states <- sort(states$State)
+state <- sort(states$State)
 
